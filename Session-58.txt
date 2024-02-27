@@ -1,0 +1,31 @@
+on-demand instances --> you will get the servers for sure
+
+spot instances
+-----------------
+10,000 CPU in mumbai
+8000 CPU, 2000 CPU is free
+
+spot instaces --> 80% discount
+at any point of time, AWS can take back these resources, 2min notice
+
+SETS
+----------------
+1. Replica set
+2. Deployment set
+3. daemon set
+4. statefulset
+
+when you provision user, you change nginx conf and include user reverse proxy
+push changes to git
+do docker build --> build and push again to docker hub
+restart the container
+
+when the code is changed then only go for build,
+if config changed, you should not go for image build, you should restart
+
+we can keep config files also in config map...
+
+
+
+
+
